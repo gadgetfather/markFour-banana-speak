@@ -76,4 +76,21 @@ button {
     cursor: pointer;
   }
   /* footer */
-  
+  .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: yellow;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 3rem;
+  }
+  .footer-header{
+      margin-right: 6rem;
+      color: #000;
+  }
+
+ .center{
+     margin-right: 6rem;
+ }
