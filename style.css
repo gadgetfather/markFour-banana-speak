@@ -1,4 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+body{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.container{
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.center{
+    max-width: 700px;
+    margin: auto;
+
+}
+
 /* textarea */
+
 textarea {
     width: 60%;
     height: 10vh;
@@ -15,4 +33,39 @@ textarea {
     width: 60%;
     padding: 1rem;
     margin: 1rem;
+}
+
+
+/* header */
+.hero{
+    padding: 2rem;
+    
+}
+.hero .hero-image{
+    max-width: 350px;
+    display: block;
+    margin: auto;
+}
+.hero .hero-heading{
+    text-align: center;
+    padding-top: 1rem;
+    color: var(--grey);
+    background-color: yellow;
+    display: block;
+}
+.hero .hero-heading .heading-inverted{
+    color: var(--primary-color);
+}
+.navigation{
+    background-color: yellow;
+    height: 10vh;
+    padding: 2rem;
+}
+.nav-brand{
+    text-align: center;
+    padding-top: 1.5rem;
+    
+}
+nav{
+    display: block;
 }
