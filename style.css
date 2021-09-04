@@ -1,8 +1,18 @@
 /* textarea */
-textarea{
-    width:60% ;
+textarea {
+    width: 60%;
     height: 10vh;
     display: block;
     margin: 1rem;
     padding: 1rem;
+}
+
+/* output */
+
+#output {
+    border: 1px solid black;
+    height: 10vh;
+    width: 60%;
+    padding: 1rem;
+    margin: 1rem;
 }
